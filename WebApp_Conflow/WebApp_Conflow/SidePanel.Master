@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SidePanel.master.cs" Inherits="WebApp_Conflow.SidePanel" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/SidePanel_Style.css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- Título do site -->
+            <div id="web-title">
+                <div class="title">
+                    <div class="content">
+                        <h1>Conflow</h1>
+                        <h3>Sistema de gerenciamento de condomínios</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Painel estático -->
+            
+            <div id="center">
+                <div id="col-left">
+                    <div id="side-panel">
+                        <div class="title">
+                            <h2>Menu</h2>
+                        </div>
+                        <div class="content">
+                            <a href="#">Link A</a>
+                            <a href="#">Link B</a>
+                            <a href="#">Link C</a>
+                            <a href="#">Link D</a>
+                            <a href="#">Link E</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conteúdo da página -->
+                
+                
+                    <div id="col-right">
+                        <div id="page-content">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Footer -->
+            <div id="footer">
+                <div class="content">
+                    <h3>&copy 2017. Todos os direitos reservados.</h3>
+                    
+                    <div id="nav-top">
+                        <a href="#">Retornar ao topo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

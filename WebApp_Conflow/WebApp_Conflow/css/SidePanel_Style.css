@@ -1,0 +1,332 @@
+﻿/*
+    2016 Palette
+
+    #92a8d1
+    #034f84
+    #f7cac9
+    #f7786b
+
+*/
+
+/* ....... */
+/* Globals */
+
+body {
+    font-family: Trebuchet MS;
+    background: #f7cac9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 480px) {
+
+    /* ........... */
+    /* Identifiers */
+
+
+    /* Título no topo */
+    #web-title {
+        width: 100%;
+        float: none;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #web-title .title {
+        background: #034f84;
+        padding: 0px 0px 1px 0px;
+    }
+
+    #web-title .content {
+        width: inherit;
+        margin: 0px 0px 0px 0px;
+        padding: 6px;
+        color: #f7cac9;
+    }
+
+    #web-title .sp {
+        width: 100%;
+    }
+
+    #web-title h1 {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    /* Centro da página */
+
+    #center {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    #col-left {
+        width: 100%;
+        float: none;
+    }
+
+    #col-right {
+        width: 100%;
+        float: none;
+    }
+
+    /* Painel lateral */
+
+    #side-panel {
+        background: #92a8d1;
+        width: 100%;
+        margin: 8px;
+        float: left;
+        min-width: 60px;
+        max-width: 95%;
+    }
+
+    #side-panel .title {
+        background: #034f84;
+        text-align: center;
+        color: #f7cac9;
+    }
+
+    #side-panel .content {
+        width: auto;
+        margin: 6px 0px 0px 0px;
+        padding: 0px 0px 8px 0px;
+    }
+
+    #side-panel a {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        color: #034f84;
+        transition: 0.12s ease;
+    }
+
+    #side-panel a:hover {
+        background: #034f84;
+        color: #f7cac9;
+    }
+
+    /* Page Content */
+
+    #page-content {
+        width: 100%;
+        float: left;
+        display: inline-block;
+        margin: 8px 16px 16px 16px;
+        min-width: 200px;
+        max-width: 93%;
+    }
+
+    /* Footer */
+    #footer {
+        width: 100%;
+        padding: 24px 0px 24px 0px;
+        float: none;
+        margin: 24px 0px 0px 0px;
+        display: inline-block;
+        background: #034f84;
+    }
+
+    #footer .content {
+        margin: 0px 14px 0px 14px;
+        text-align: center;
+        color: #f7cac9;
+    }
+
+    #footer #nav-top {
+        margin-top: 24px;
+    }
+
+    #footer #nav-top a {
+        color: #f7cac9;
+        font-weight: bold;
+        text-decoration: none;
+        padding-right: 24px;
+        background-image: url(../img/arrow-chevron-red.svg);
+        background-position: right;
+        background-size: 1em;
+        background-repeat: no-repeat;
+        background-attachment: local;
+    }
+
+
+
+    /* ....... */
+    /* Classes */
+    .sp {
+        height: 24px;
+        float: none;
+        width: inherit;
+    }
+}
+
+@media screen and (min-width: 480px) {
+
+    /* ........... */
+    /* Identifiers */
+
+
+    /* Título no topo */
+    #web-title {
+        width: 100%;
+        float: none;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #web-title .title {
+        background: #034f84;
+        padding: 0px 0px 1px 0px;
+    }
+
+    #web-title .content {
+        width: inherit;
+        margin: 0px 0px 0px 0px;
+        padding: 6px;
+        color: #f7cac9;
+    }
+
+    #web-title .sp {
+        width: 100%;
+    }
+
+    #web-title h1 {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    /* Centro da página */
+
+    #center {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    #col-left {
+        width: 15%;
+        float: left;
+    }
+
+    #col-right {
+        width: 85%;
+        float: left;
+    }
+
+    /* Painel lateral */
+
+    #side-panel {
+        background: #92a8d1;
+        width: 100%;
+        margin: 8px;
+        float: left;
+        min-width: 60px;
+        max-width: 100%;
+    }
+
+    #side-panel .title {
+        background: #034f84;
+        text-align: center;
+        color: #f7cac9;
+    }
+
+    #side-panel .content {
+        width: auto;
+        margin: 6px 0px 0px 0px;
+        padding: 0px 0px 8px 0px;
+    }
+
+    #side-panel a {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        color: #034f84;
+        transition: 0.12s ease;
+    }
+
+    #side-panel a:hover {
+        background: #034f84;
+        color: #f7cac9;
+    }
+
+    /* Page Content */
+
+    #page-content {
+        width: 100%;
+        float: left;
+        display: inline-block;
+        margin: 8px 16px 16px 16px;
+        min-width: 400px;
+        max-width: 96%;
+    }
+
+    /* Footer */
+    #footer {
+        width: 100%;
+        padding: 24px 0px 24px 0px;
+        float: none;
+        margin: 24px 0px 0px 0px;
+        display: inline-block;
+        background: #034f84;
+    }
+
+    #footer .content {
+        margin: 0px 14px 0px 14px;
+        text-align: center;
+        color: #f7cac9;
+    }
+
+    #footer #nav-top {
+        margin-top: 24px;
+    }
+
+    #footer #nav-top a {
+        color: #f7cac9;
+        font-weight: bold;
+        text-decoration: none;
+        padding-right: 24px;
+        background-image: url(../img/arrow-chevron-red.svg);
+        background-position: right;
+        background-size: 1em;
+        background-repeat: no-repeat;
+        background-attachment: local;
+    }
+
+
+
+    /* ....... */
+    /* Classes */
+    .sp {
+        height: 24px;
+        float: none;
+        width: inherit;
+    }
+
+}
